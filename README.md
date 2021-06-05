@@ -4,7 +4,11 @@ Chat implemented in C++, using ncurses and socket. Project made for class of Com
 
 ## Dependencies
 
-Needs ncurses library, for this use: apt-get install ncurses-dev
+Needs ncurses library, for this use:
+
+```bash
+apt-get install ncurses-dev
+```
 
 _________________
 
