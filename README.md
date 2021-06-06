@@ -1,6 +1,9 @@
 Ana Clara Amorim Andrade       NºUsp: 10691992
+
 Fábio Dias da Cunha            NºUsp: 11320874
+
 Lucas Gabriel de Araujo Silva  NºUsp: 11218880
+
 Matheus Godoy Bolsarini        NºUsp: 9896201
 
 # Chat-Socket
