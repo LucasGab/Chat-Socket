@@ -20,6 +20,12 @@ apt-get install ncurses-dev
 
 _________________
 
+## Especifications
+
+Operation System: Linux Ubuntu 20.04
+
+Compiler: Default Ubuntu GNU
+
 ## Usage
 
 Run the makefile in the root of the project:
