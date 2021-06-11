@@ -248,7 +248,7 @@ public:
         else
         {
           perror("Error when reading message");
-          exit(1);
+          stopClient();
         }
       }
       else if (bytes_received == 0)

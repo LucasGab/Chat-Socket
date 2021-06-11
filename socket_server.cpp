@@ -218,10 +218,12 @@ private:
         else
         {
           perror("Error when accepting message");
-          exit(1);
         }
       }
-      else
+      else if (bytes_received == 0)
+      {
+        status = 0;
+      }else
       {
         message_client[bytes_received] = '\0';
         int message_type = 1;
@@ -268,7 +270,6 @@ private:
         else
         {
           perror("Error when accepting connection");
-          exit(1);
         }
       }
       else
